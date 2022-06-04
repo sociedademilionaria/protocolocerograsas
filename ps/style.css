@@ -5,10 +5,10 @@
 
 *, *::before, *::after {
 	box-sizing: border-box;
-	font-family: Gotham Rounded;
 }
 
 body {
+	font-family: Gotham Rounded;
 	padding: 0;
 	margin: 0;
 	display: flex;
@@ -27,7 +27,7 @@ body {
 }
 
 .black {
-	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.8);
 	padding: 10px;
 	text-align: center;
 	border-radius: 20px;
@@ -46,12 +46,12 @@ body {
 	font-size: 30px;
 	background-color: #2dff00;
 	outline: none;
-	color: #000000;
+	color: #fff;
 	text-decoration: none;
 }
 
 .black h1 {
-	color: #2dff00;
+	color: #ff0000;
 }
 
 .black p {
